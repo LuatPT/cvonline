@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .App-logo {
@@ -35,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Footer */
+.iconRef a{
+  font-size: 32px;
+  color: rgb(199, 199, 199);
+}
+
+.iconRef a:hover{
+  color: rgb(223, 57, 39);
+}
+
+.heading{
+  padding: 3px 10px 15px;
+  margin-bottom: 30px;
+  display: block;
+}
+.heading h2{
+  color: rgb(204, 70, 70);
+}
+.heading p::selection{
+  color: rgb(255, 255, 255);
+  background: rgb(204, 70, 70);
 }
