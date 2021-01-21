@@ -5,7 +5,7 @@ class MenuItem extends React.Component{
         const {value} = this.props;
         let stringUrl = '#'+value;
         return(
-                <li><a href={stringUrl} className="scroll-link">{value}</a></li>
+                <li className=""><a href={stringUrl} className="scroll-link">{value}</a></li>
         )
     }
 }

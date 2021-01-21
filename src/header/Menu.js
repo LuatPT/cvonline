@@ -5,10 +5,14 @@ import RightBar from './RightBar';
 class Menu extends React.Component{
     render(){
         return(
-            <div id="#Menu">
-                <LeftBar />
-                <RightBar />
-            </div>
+            <header className="header">
+                <div id="#Menu" className="container">
+                    <nav className="navbar navbar-inverse" role="navigation">
+                        <LeftBar />
+                        <RightBar />
+                    </nav>
+                </div>
+            </header>
         )
     }
 }
