@@ -134,10 +134,10 @@
     color: rgb(255, 255, 255);
     background: rgb(204, 70, 70);
 }
-.aboutItemBody,.slideShowFooter > p{
+.aboutItemBody > p,.slideShowFooter > p{
     color: #777777;
 }
-.aboutItemBody,.slideShowFooter > p::selection{
+.aboutItemBody > p::selection,.slideShowFooter > p::selection{
     color: rgb(255, 255, 255);
     background: rgb(204, 70, 70);
 }
@@ -173,4 +173,19 @@
     margin-left: 15%;
     list-style: none;
 }
+ /* Projects */
+ .projects{
+     background-color: #181818;
+ }
+ .projectsHeader > h2 {
+     color: #CC4646;
+ }
+ .projectsHeader > p{
+    font-size: 1.2em;
+    color: #858585;
+ }
 
+ .btnFilter{
+     color: #CC4646;
+     border: 1px solid #CC4646;
+ }
