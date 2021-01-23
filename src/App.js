@@ -5,6 +5,7 @@ import Menu from './header/Menu';
 import AboutMe from './main/AboutMe';
 import Slide from './header/Slide';
 import Projects from './main/Projects';
+import Skills from './main/Skills';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Menu />
       <Slide />
       <AboutMe />
+      <Skills />
       <Projects />
       <Contacts/>
     </div>

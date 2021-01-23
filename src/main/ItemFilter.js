@@ -3,7 +3,7 @@ import React from 'react';
 class ItemFilter extends React.Component{
 
     changeStateItem = (e) =>{
-        e.preventDefault();
+        // e.preventDefault();
         const ele = this.props;
         const {changeState} = this.props;
         changeState(ele.id);
@@ -21,7 +21,7 @@ class ItemFilter extends React.Component{
         }
         return(
             <li className="liFilter">
-                <a href="#" className="current btnFilter btn-small" data-filter="*" onClick={this.changeStateItem} style={mystyle}><span>{ele.value}</span></a>
+                <p className="current btnFilter btn-small" data-filter="*" onClick={this.changeStateItem} style={mystyle}><span>{ele.value}</span></p>
             </li>
         )
     }

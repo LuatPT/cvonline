@@ -57,7 +57,11 @@
             .heading h2 {
                 color: rgb(204, 70, 70);
             }
-            
+            .heading p{
+                font-size: 0.9em;
+                color: #858585;
+                line-height: 22px;
+            }
             .heading p::selection {
                 color: rgb(255, 255, 255);
                 background: rgb(204, 70, 70);
@@ -219,32 +223,75 @@
  .iconRef > a{
      padding: 1%;
  }
-
+.projectItemAll{
+    padding: 2%;
+}
  .projectItem{
      position: relative;
-     padding: 1%;
+     padding: 0;
  }
-
- .detailProject{
+.projectItem > img{
+    width: 100%;
+}
+ .divImgItem{
      position: absolute;
      top: 0;
-     right: 0;
+     left: 0;
+     color: rgba(220, 220, 220);
      display: none;
-     background: rgba(220, 220, 220);
+     width: 100%;
+     height: 100%;
  }
 
- .projectItem:hover .detailProject{
-    display: block;
-    width: 100%;
+ .projectItem:hover .divImgItem{
+    
     height: 100%;
+    display: block;
     opacity: 0.5;
-    transition: all 500ms ease-in-out 0s;
- }
-
- 
- .detailProject > a{
+    background: rgba(61, 61, 61, 0.67);
+}
+.projectItem:hover .detailProject{
+    transform: translateY(10px);
+    transition: transform 2s;
+}
+ .divImgItem > a{
     color: #fff;
     text-align: center;
     display: block;
     padding: 5%;
  }
+
+ .detailProject > a{
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+ }
+ /* Skills */
+ .skills{
+     padding: 2%;
+ }
+.skillItemHeader{
+    padding: 2%;
+}
+ .progress{
+     padding: 0;
+     width: 100%;
+    border-radius: 0px;
+    height: 15px;
+    margin-top: 5px;
+    background-color: #D6D6D6;
+    margin-bottom: 20px;
+    overflow: hidden;
+ }
+
+ .progress-bar{
+    background-color: #CC4646;
+ }
+
+ 
