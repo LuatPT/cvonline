@@ -14,8 +14,8 @@ class AboutMe extends React.Component{
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <div className="row">
                         {
-                            listHeader.map(ele =>
-                                <AboutMeItem {...ele}/>
+                            listHeader.map((ele,key) =>
+                                <AboutMeItem key={key} {...ele}/>
                              ) 
                         }   
                     </div>

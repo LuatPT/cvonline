@@ -5,23 +5,23 @@ class Slide extends React.Component{
     render(){
         return(
         <div className="slideShow">
-            <div id="carouselExampleIndicators" class="slideShowDetail carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+            <div id="carouselExampleIndicators" className="slideShowDetail carousel slide" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
                         <h2>Header</h2>
                         <p>Header fafafaf</p>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <h2>Header2</h2>
                         <p>Header vafafafaf</p>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <h2>Header23123</h2>
                         <p>Header fafaf</p>
                     </div>
                 </div>
-                <ol class="carouselBtn">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <ol className="carouselBtn">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
@@ -34,7 +34,7 @@ class Slide extends React.Component{
                     <span class="sr-only">Next</span>
                 </a> */}
             </div>
-            <img src="https://demo.themezy.com/system/resources/demo_themes/000/000/188//images/banner-bg.jpg" alt="banner"/>
+            <img src="https://demo.themezy.com/system/resources/demo_themes/000/000/188//images/banner-bg.jpg" alt="banner" width="100%"/>
             <SlideFooter />
         </div>
         )

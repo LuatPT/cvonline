@@ -7,7 +7,7 @@ class Menu extends React.Component{
         return(
             <header className="header">
                 <div id="#Menu" className="container">
-                    <nav className="navbar navbar-inverse" role="navigation">
+                    <nav className="navbar fixed-top navbar-inverse navBarMenu" role="navigation">
                         <LeftBar />
                         <RightBar />
                     </nav>

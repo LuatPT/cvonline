@@ -8,7 +8,7 @@ class RightBar extends React.Component{
             <div id="main-nav">
                 <ul className="nav navbar-nav row"  id="mainNav">
                 {
-                list.map(element => <MenuItem value={element}/> )
+                list.map((element,key) => <MenuItem key={key} value={element}/> )
                 }
                 </ul>
             </div>

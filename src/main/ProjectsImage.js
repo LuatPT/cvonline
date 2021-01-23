@@ -4,10 +4,14 @@ class ProjectsImage extends React.Component{
     render(){
         const ele = this.props;
         return(
-          <div className="col-md-4">
-              <img src={ele.img} alt="error" width="400px" height="400px"/>
-              <h4>{ele.name}</h4>
-              <p>{ele.url}</p>
+          <div className="col-md-4 projectItem">
+              <img src={ele.img} alt="error" className="projectImg" width="100%" height="100%"/>
+              <div className="detailProject">
+                <a href={ele.url}>
+                    <h5>{ele.name}</h5>
+                    <i class="fa fa-arrows-alt fa-2x"></i>
+                </a>
+              </div>
           </div>
         )
     }
