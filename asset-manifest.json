@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cvonline/static/css/main.8f6c4a1f.chunk.css",
-    "main.js": "/cvonline/static/js/main.993372ac.chunk.js",
-    "main.js.map": "/cvonline/static/js/main.993372ac.chunk.js.map",
+    "main.css": "/cvonline/static/css/main.add6cb03.chunk.css",
+    "main.js": "/cvonline/static/js/main.daf1ca54.chunk.js",
+    "main.js.map": "/cvonline/static/js/main.daf1ca54.chunk.js.map",
     "runtime-main.js": "/cvonline/static/js/runtime-main.b062844f.js",
     "runtime-main.js.map": "/cvonline/static/js/runtime-main.b062844f.js.map",
     "static/js/2.894e71fe.chunk.js": "/cvonline/static/js/2.894e71fe.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.567e1a5a.chunk.js": "/cvonline/static/js/3.567e1a5a.chunk.js",
     "static/js/3.567e1a5a.chunk.js.map": "/cvonline/static/js/3.567e1a5a.chunk.js.map",
     "index.html": "/cvonline/index.html",
-    "static/css/main.8f6c4a1f.chunk.css.map": "/cvonline/static/css/main.8f6c4a1f.chunk.css.map",
+    "static/css/main.add6cb03.chunk.css.map": "/cvonline/static/css/main.add6cb03.chunk.css.map",
     "static/js/2.894e71fe.chunk.js.LICENSE.txt": "/cvonline/static/js/2.894e71fe.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/cvonline/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b062844f.js",
     "static/js/2.894e71fe.chunk.js",
-    "static/css/main.8f6c4a1f.chunk.css",
-    "static/js/main.993372ac.chunk.js"
+    "static/css/main.add6cb03.chunk.css",
+    "static/js/main.daf1ca54.chunk.js"
   ]
 }
