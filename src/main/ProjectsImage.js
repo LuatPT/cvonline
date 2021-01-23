@@ -9,7 +9,7 @@ class ProjectsImage extends React.Component{
               <div className="detailProject">
                 <a href={ele.url}>
                     <h5>{ele.name}</h5>
-                    <i class="fa fa-arrows-alt fa-2x"></i>
+                    <i className="fa fa-arrows-alt fa-2x"></i>
                 </a>
               </div>
           </div>
