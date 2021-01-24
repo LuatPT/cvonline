@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/cvonline/static/css/main.4600995a.chunk.css",
-    "main.js": "/cvonline/static/js/main.dd35d363.chunk.js",
-    "main.js.map": "/cvonline/static/js/main.dd35d363.chunk.js.map",
-    "runtime-main.js": "/cvonline/static/js/runtime-main.b062844f.js",
-    "runtime-main.js.map": "/cvonline/static/js/runtime-main.b062844f.js.map",
-    "static/js/2.894e71fe.chunk.js": "/cvonline/static/js/2.894e71fe.chunk.js",
-    "static/js/2.894e71fe.chunk.js.map": "/cvonline/static/js/2.894e71fe.chunk.js.map",
-    "static/js/3.567e1a5a.chunk.js": "/cvonline/static/js/3.567e1a5a.chunk.js",
-    "static/js/3.567e1a5a.chunk.js.map": "/cvonline/static/js/3.567e1a5a.chunk.js.map",
+    "main.css": "/cvonline/static/css/main.d819bbaf.chunk.css",
+    "main.js": "/cvonline/static/js/main.d88b0dc0.chunk.js",
+    "main.js.map": "/cvonline/static/js/main.d88b0dc0.chunk.js.map",
+    "runtime-main.js": "/cvonline/static/js/runtime-main.99a1deda.js",
+    "runtime-main.js.map": "/cvonline/static/js/runtime-main.99a1deda.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/cvonline/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.7f4459e3.chunk.js": "/cvonline/static/js/2.7f4459e3.chunk.js",
+    "static/js/2.7f4459e3.chunk.js.map": "/cvonline/static/js/2.7f4459e3.chunk.js.map",
+    "static/js/3.13bd1175.chunk.js": "/cvonline/static/js/3.13bd1175.chunk.js",
+    "static/js/3.13bd1175.chunk.js.map": "/cvonline/static/js/3.13bd1175.chunk.js.map",
     "index.html": "/cvonline/index.html",
-    "static/css/main.4600995a.chunk.css.map": "/cvonline/static/css/main.4600995a.chunk.css.map",
-    "static/js/2.894e71fe.chunk.js.LICENSE.txt": "/cvonline/static/js/2.894e71fe.chunk.js.LICENSE.txt",
+    "static/css/2.2aa38b9c.chunk.css.map": "/cvonline/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.d819bbaf.chunk.css.map": "/cvonline/static/css/main.d819bbaf.chunk.css.map",
+    "static/js/2.7f4459e3.chunk.js.LICENSE.txt": "/cvonline/static/js/2.7f4459e3.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/cvonline/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b062844f.js",
-    "static/js/2.894e71fe.chunk.js",
-    "static/css/main.4600995a.chunk.css",
-    "static/js/main.dd35d363.chunk.js"
+    "static/js/runtime-main.99a1deda.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.7f4459e3.chunk.js",
+    "static/css/main.d819bbaf.chunk.css",
+    "static/js/main.d88b0dc0.chunk.js"
   ]
 }
