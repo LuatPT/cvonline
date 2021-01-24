@@ -180,9 +180,10 @@
 .carousel-item{
     animation: toLeftAnim1 0.6s ease-in-out both;
 }
+
 .carousel-inner{
     padding-top: 10% ;
-    padding-right: 70%;
+    padding-right: 60%;
 }
  /* Projects */
  .projects{
@@ -303,3 +304,4 @@
 .contactUs{
     padding: 2%;
 }
+

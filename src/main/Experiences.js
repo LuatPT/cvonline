@@ -15,13 +15,13 @@ class Experiences extends React.Component{
         ];
 
         return(
-        <div className="experiences" id="Experiences">
+        <div className="experiences" id="Experience">
             <div className="heading text-center">
                 <h2>Professional Experience</h2>
                 <p>Below is my experiences in the past</p>
             </div>
             <VerticalTimeline >
-                {listWork.map((ele,key) => <ExperienceItem {...ele}/>)}
+                {listWork.map((ele,key) => <ExperienceItem key={key} {...ele}/>)}
             </VerticalTimeline>
         </div>  
         )

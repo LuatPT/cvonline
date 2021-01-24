@@ -8,16 +8,16 @@ class Slide extends React.Component{
             <div id="carouselExampleIndicators" className="slideShowDetail carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <h2>Header</h2>
-                        <p>Header fafafaf</p>
+                        <h2>JAVASCRIPT</h2>
+                        <p>I develop website using Bootstrap, ReactJS, ...</p>
                     </div>
                     <div className="carousel-item">
-                        <h2>Header2</h2>
-                        <p>Header vafafafaf</p>
+                        <h2>JAVA, NODEJS</h2>
+                        <p>I develop website using Spring, Strut1, Express,...</p>
                     </div>
                     <div className="carousel-item">
-                        <h2>Header23123</h2>
-                        <p>Header fafaf</p>
+                        <h2>OTHERS</h2>
+                        <p>Create testcase with Excel and use VBA to auto test it...</p>
                     </div>
                 </div>
                 <ol className="carouselBtn">
@@ -25,16 +25,8 @@ class Slide extends React.Component{
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                {/* <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a> */}
             </div>
-            <img src="https://demo.themezy.com/system/resources/demo_themes/000/000/188//images/banner-bg.jpg" alt="banner" width="100%"/>
+            <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-9/47684703_716973225339560_3899526057874685952_o.jpg?_nc_cat=107&ccb=2&_nc_sid=8bfeb9&_nc_ohc=6lJ3AfkbC3MAX8wCRcY&_nc_ht=scontent.fdad2-1.fna&oh=e6927c148232480d528a7c040b6d2103&oe=6032A9BC" alt="banner" width="100%"  />
             <SlideFooter />
         </div>
         )

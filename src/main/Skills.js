@@ -5,11 +5,16 @@ class Skills extends React.Component{
     
     render(){
         let listSkill = [
-            {id:1, header: "Programming Skills", content: "It takes knowledge, smart work, and dedication to make great ideas come to life. I have been helping make great ideas happen for the past 7 years and am always ready for new challenges."},
-            {id:2, header: "Designing Skills", content: "Problem solving is not always about sitting in a board room talking about the way things should be done. I have a strong background in UI design which allows ready for new challenges."},
+            {id:1, header: "Back End Skills", content: "I worked with Java about 1 year. I have used Strut1, Spring Framework for project."},
+            {id:2, header: "Front End Skills", content: "I have knowledge with Javascript. I have used NodeJs, ReactJs with Redux(to manage state). "},
+            {id:3, header: "Others Skills", content: "With testing, I used VBA to create and execute testcase faster."},
         ];
         return(
         <div className="skills" id="Skills" >
+            <div class="heading text-center">
+                <h2>My Skills</h2>
+                <p>I'm a backend developer. But I have a little knowledge about front end. Please refer it below.</p>
+            </div>
             <div className="skillItemHeader row">
                {
                 listSkill.map((ele,key) => <SkillHeader key={key} {...ele}/>)

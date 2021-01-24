@@ -4,8 +4,8 @@ class SlideFooter extends React.Component{
     render(){
         return(
         <div className="slideShowFooter">
-           <h1>I create beautiful responsive websites, Yes I am a UX geek</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium. Cras posuere dolor risus. Pellentesque elementum ultricies quam, sit amet rhoncus nisl viverra in. Cras imperdiet nisi a euismod molestie. Ut a metus arcu. Pellentesque feugiat dictum erat. Nulla vehicula condimentum purus, quis imperdiet nisl ultricies eleifend. Nulla quis rhoncus risus. Ut vel vehicula urna.</p>
+           <h1> I'm Luat, a BackEnd developer</h1>
+           <p>I am a funny, extroverts people.  I like to help every one. I like to go on a trip around Viet Nam</p>
         </div>  
         )
     }

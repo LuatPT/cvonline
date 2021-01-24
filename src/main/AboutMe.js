@@ -4,9 +4,9 @@ import AboutMeItem from './AboutMeItem';
 class AboutMe extends React.Component{
     render(){
         var listHeader = [
-         {header: "Responsive Design", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium.", css:"fa fa-desktop"},
-         {header:"HTML5/CSS3 Dev", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium.",css:"fa fa-css3"},
-         {header: "JavaScript jQuery", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium.", css:"fa fa-lightbulb-o"}];
+         {header: "Back end", body: "Create business with Java. Using Spring framework to create faster", css:"fa fa-desktop"},
+         {header:"Front end", body: "Create wonderful website UI/UX with Html/css. Use Javascript to build it easier",css:"fa fa-css3"},
+         {header: "Other", body: "Using Excel, VBA to create testcase quickly. Use word to create document", css:"fa fa-lightbulb-o"}];
         return(
             <div className="aboutMe" id="About Me">
                 <div className="aboutMeHeader">
