@@ -13,7 +13,7 @@ class ExperienceItem extends React.Component{
             date={ele.date}
             iconStyle={{ background: ele.group==="study" ? "rgb(245, 0, 87)" :'rgb(33, 150, 243)', color: '#fff' }}
             icon={ele.group==="study" ? <StudenIcon /> :<WorkIcon />}
-            layout="1-column-left"
+            
             >
             <h3 className="vertical-timeline-element-title">{ele.company}</h3>
             <b className="vertical-timeline-element-subtitle">{ele.address}</b>

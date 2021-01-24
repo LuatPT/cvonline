@@ -26,7 +26,7 @@ class Slide extends React.Component{
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
             </div>
-            <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-9/47684703_716973225339560_3899526057874685952_o.jpg?_nc_cat=107&ccb=2&_nc_sid=8bfeb9&_nc_ohc=6lJ3AfkbC3MAX8wCRcY&_nc_ht=scontent.fdad2-1.fna&oh=e6927c148232480d528a7c040b6d2103&oe=6032A9BC" alt="banner" width="100%"  />
+            <img src="https://i.imgur.com/DKEPdzi.jpg" alt="banner" width="100%"  />
             <SlideFooter />
         </div>
         )
