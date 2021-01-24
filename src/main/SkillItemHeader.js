@@ -16,7 +16,7 @@ class SkillHeader extends React.Component{
         let ele = this.props;
         return(
             <div className="skillItemHeader col-md-6"  >
-                <div class="heading text-center">
+                <div className="heading text-center">
                         <h2>{ele.header}</h2>
                         <p>{ele.content}</p>
                  </div>

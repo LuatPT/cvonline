@@ -294,4 +294,12 @@
     background-color: #CC4646;
  }
 
- 
+/* Experiences */
+.experiences{
+    background: #e4e4e4;
+    padding: 2%;
+}
+/* Contact Us */
+.contactUs{
+    padding: 2%;
+}
