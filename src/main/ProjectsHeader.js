@@ -5,7 +5,8 @@ class ProjectsHeader extends React.Component{
         return(
         <div className="projectsHeader">
             <h2>Projects</h2>
-            <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+            <p>When I was a student, I maked some software to study in freetime. And now, I still keep this habbit.</p>
+            <p>I worked about 8 hours in my current company. I create pet project and practice every night. I love it.</p>
         </div>  
         )
     }

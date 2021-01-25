@@ -210,6 +210,7 @@
 
  .liFilter{
      padding: 0.5%;
+     list-style-type: none;
  }
 .liFilter:hover a > span{
     color: #b93923;
@@ -244,7 +245,7 @@
      height: 100%;
  }
 
- .projectItem:hover .divImgItem{
+ /* .projectItem:hover .divImgItem{
     
     height: 100%;
     display: block;
@@ -254,7 +255,7 @@
 .projectItem:hover .detailProject{
     transform: translateY(10px);
     transition: transform 2s;
-}
+} */
  .divImgItem > a{
     color: #fff;
     text-align: center;

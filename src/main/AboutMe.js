@@ -10,8 +10,8 @@ class AboutMe extends React.Component{
         return(
             <div className="aboutMe" id="About Me">
                 <div className="aboutMeHeader">
-                    <h2>I am Luat, a Backend Developer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <h2>I am a Backend Developer</h2>
+                    <p>I have started with Java. But I also use Javascript to make website beautiful.</p>
                     <div className="row">
                         {
                             listHeader.map((ele,key) =>
