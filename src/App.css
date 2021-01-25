@@ -75,6 +75,7 @@
             .navbar-nav {
                 float: right;
                 flex-direction: unset;
+                font-size: 1em;
             }
             .navbar-nav > li {
                 padding: 5px 10px;
@@ -94,14 +95,14 @@
                 background: #CC4646;
                 text-transform: uppercase;
                 color: #999;
-                padding: 5px;
+                width: 100%;
             }
 
             .imageTop{
                 color: #fff;
                 font-family: 'Pacifico', cursive;
                 font-weight: 400;
-                font-size: 20px;
+                font-size: 1em;
                 text-shadow: none;
                 margin: 8px 0 0 0;
             }
@@ -178,22 +179,28 @@
     list-style: none;
 }
 .carousel-item{
+    padding-top: 5% ;
+    padding-left: 60%;
     animation: toLeftAnim1 0.6s ease-in-out both;
+    color: #ff9933;
+    font-weight: bold;
 }
-
+.carousel-item > h2{
+    font-size: 1.5em;
+}
 .carousel-inner{
-    padding-top: 10% ;
-    padding-right: 60%;
+   
 }
  /* Projects */
  .projects{
      background-color: #181818;
  }
  .projectsHeader > h2 {
+    font-size: 1.5em;
      color: #CC4646;
  }
  .projectsHeader > p{
-    font-size: 1.2em;
+    font-size: 1em;
     color: #858585;
  }
 
@@ -215,8 +222,8 @@
 .liFilter:hover a > span{
     color: #b93923;
 }
- .navFilter{
-    margin-left: 40%;
+ .ulFilter{
+    justify-content: center;
  }
  .projects{
      padding: 5%;
@@ -276,10 +283,10 @@
  }
  /* Skills */
  .skills{
-     padding: 2%;
+     padding: 4%;
  }
 .skillItemHeader{
-    padding: 2%;
+    padding: 0.5%;
 }
  .progress{
      padding: 0;
@@ -299,7 +306,7 @@
 /* Experiences */
 .experiences{
     background: #e4e4e4;
-    padding: 2%;
+    padding: 4%;
 }
 /* Contact Us */
 .contactUs{

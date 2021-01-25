@@ -4,7 +4,7 @@ import ProjectsImage from './ProjectsImage';
 class ProjectsImageList extends React.Component{
     
     render(){
-        let {currentState,listProjects} = this.props;
+        let {listProjects} = this.props;
         
         return(
         <div className="projectsImageList row" >

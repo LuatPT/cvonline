@@ -11,7 +11,7 @@ class Skills extends React.Component{
         ];
         return(
         <div className="skills" id="Skills" >
-            <div class="heading text-center">
+            <div className="heading text-center">
                 <h2>My Skills</h2>
                 <p>I'm a backend developer. But I have a little knowledge about front end. Please refer it below.</p>
             </div>

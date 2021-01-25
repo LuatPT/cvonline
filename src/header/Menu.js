@@ -6,8 +6,8 @@ class Menu extends React.Component{
     render(){
         return(
             <header className="header" id="Home">
-                <div id="#Menu" className="container">
-                    <nav className="navbar fixed-top navbar-inverse navBarMenu" role="navigation">
+                <div id="#Menu">
+                    <nav className="navbar navbar-inverse navBarMenu" role="navigation">
                         <LeftBar />
                         <RightBar />
                     </nav>

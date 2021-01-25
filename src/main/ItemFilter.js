@@ -13,7 +13,7 @@ class ItemFilter extends React.Component{
         const {currentFilter} = this.props;
         
         let mystyle ;
-        if(currentFilter == ele.id){
+        if(currentFilter === ele.id){
             mystyle = {
           backgroundColor:  "#CC4646",
           color: "#f2f3ff"

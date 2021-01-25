@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Contacts from './footer/Contacts';
 import Menu from './header/Menu';

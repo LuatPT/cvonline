@@ -14,7 +14,6 @@ class RightBar extends React.Component{
         })
     }
     render(){
-        console.log(this.state.currentMenu);
         let list = [{id:0, value:"Home"}, {id:1, value:"About Me"}, {id:2, value:"Skills"}, {id:3, value:"Experience"}, {id:4, value:"Projects"}, {id:5, value:"Contact Us"}];
         return(
             <div id="main-nav">
