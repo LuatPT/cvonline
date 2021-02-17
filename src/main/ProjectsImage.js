@@ -8,9 +8,11 @@ class ProjectsImage extends React.Component{
         return(
             <div className="col-md-4 projectItemAll" >
                 <div className="projectItem">
-                    <span className="divImgItemSpan">
-                        <h5>{ele.name}</h5>
-                    </span>
+                    <a href={ele.url}>
+                        <span className="divImgItemSpan">
+                            <h5>{ele.name}</h5>
+                        </span>
+                    </a>
                     <div className="awesome-component">
                         <ZoomerImage
                         zoomId={idImg}
