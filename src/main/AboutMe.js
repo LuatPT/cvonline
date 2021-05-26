@@ -10,7 +10,7 @@ class AboutMe extends React.Component{
         return(
             <div className="aboutMe" id="About Me">
                 <div className="aboutMeHeader">
-                    <h2>I am a Backend Developer</h2>
+                    <h2>Overview</h2>
                     <p>I have started with Java. But I also use Javascript to make website beautiful.</p>
                     <div className="row">
                         {

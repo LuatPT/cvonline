@@ -13,6 +13,7 @@ class Skills extends React.Component{
         <div className="skills" id="Skills" >
             <div className="heading text-center">
                 <h2>My Skills</h2>
+                <p>I have skill both of backend and frontend</p>
             </div>
             <div className="skillItemHeader row">
                {
