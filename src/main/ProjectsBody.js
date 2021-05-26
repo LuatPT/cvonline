@@ -23,7 +23,8 @@ class ProjectsBody extends React.Component{
             {id:5, group: 2,name: "Supplement website with ReactJs, Redux and NodeJs FE", url:"https://github.com/LuatPT/WheyStore_FE", img: "https://i.imgur.com/tOumlZV.png"},
             {id:6, group: 2,name: "Face Recognition with React ,Redux FE", url:"https://github.com/LuatPT/FaceMe", img: "http://i.imgflip.com/4v3e4k.gif"},
             {id:7, group: 3,name: "Eng-VN dictionary app with C#", url:"https://github.com/LuatPT/EN_VN_Dictionary", img: "https://i.imgur.com/U8UAYNP.png"},    
-            {id:8, group: 3, name: "Weather forecast software with Android", url: "https://github.com/LuatPT/App_Weather",img:"https://i.imgur.com/rEnYX19.png"},    
+            {id:8, group: 3, name: "Weather forecast software with Android", url: "https://github.com/LuatPT/App_Weather",img:"https://i.imgur.com/rEnYX19.png"},
+            {id:9, group: 1, name: "Fitness Website with SpringBoot+ReactJs", url:"https://github.com/LuatPT/fitvn_FE/tree/master", img: "https://i.imgur.com/G2TcjIk.png"},      
     ]
         if(this.state.currentFilter !== 0){
             listProjects = listProjects.filter(ele => ele.group === this.state.currentFilter);

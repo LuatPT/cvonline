@@ -8,8 +8,8 @@ class Experiences extends React.Component{
         let listWork = [
             {id: 1,group:"study",date: "2013 - 2019", company: "Vinh University", address: "Vinh City, Nghe An", work: "Student", detail:"Study C/C++, Java, C#, Html/css"},
             {id: 2,group:"work",date: "10/2019 - 02/2020", company: "FPT Sofware", address: "Da Nang City", work: "Fresher", detail:"Train with Java and Struts Framework.Train with ReactJs and NodeJs"},
-            {id: 3,group:"work",date: "03/2020 - 06/2020", company: "FPT Sofware", address: "Da Nang City", work: "Backend Developer", detail:"Work with Spring, VueJs (3 month)"},
-            {id: 4,group:"work",date: "06/2020 - Now", company: "FPT Sofware", address: "Da Nang City", work: "Backend Developer", detail:" Coding Java with requirement from Japan.Use VBA to create and execute testcase faster "}
+            {id: 3,group:"work",date: "03/2020 - 03/2021", company: "FPT Sofware", address: "Da Nang City", work: "Backend Developer", detail:"Work with Spring, VueJs (3 month).Coding Java with requirement from Japan"},
+            {id: 4,group:"work",date: "03/2021 - NOW", company: "IFV Co. Ltd", address: "Da Nang City", work: "Backend Developer", detail:" Create Batch with Python, Coding Api with Java Spring "}
         ];
 
         return(

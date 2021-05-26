@@ -10,7 +10,7 @@ class Contacts extends React.Component{
                     <h2>Let's Keep In Touch!</h2>
                     <p>Thank you for visiting out my profile. If you would like to get into contact with me, please contact with my information below.</p>
                 </div>
-                <ContactItem />
+                {/* <ContactItem /> */}
                 <IconList />
                 
             </div>
